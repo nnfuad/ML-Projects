@@ -27,6 +27,7 @@ This repository contains various machine learning projects ranging from beginner
 ### 🔍 Classification Projects
 | Project | Description | Technologies | Status |
 |---------|-------------|--------------|--------|
+|Diabetes Detection|A model that predicts if a patirnt has diabetes or not.|FNN|Complete|
 
 ## ⚙️ Setup
 
