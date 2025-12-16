@@ -27,7 +27,7 @@ This repository contains various machine learning projects ranging from beginner
 ### 🔍 Classification Projects
 | Project | Description | Technologies | Status |
 |---------|-------------|--------------|--------|
-|[Diabetes Detection](https://github.com/nnfuad/ML-Projects/tree/main/Project1%3A%20Diabetes%20Detection)|A model that predicts if a patirnt has diabetes or not.|FNN|Complete|
+|[Diabetes Detection](https://github.com/nnfuad/ML-Projects/tree/main/Project1%3A%20Diabetes%20Detection)|A model that predicts if a patient has diabetes or not.|FNN|Complete|
 
 ## ⚙️ Setup
 
