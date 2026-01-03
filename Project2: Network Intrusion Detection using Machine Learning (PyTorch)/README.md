@@ -212,11 +212,13 @@ plt.show()
 ## Repository Structure
 ```
 ├── data/
-│   └── nsl_kdd.csv
+│   └── kdd_test.csv
+    └── kdd_train.csv
 ├── notebooks/
 │   └── intrusion_detection.ipynb
 ├── src/
 │   └── model.py
+    └── train.py
 ├── README.md
 ```
 
