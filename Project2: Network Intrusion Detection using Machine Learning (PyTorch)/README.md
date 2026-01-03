@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on building a **machine learning–based Network Intrusion Detection System (NIDS)** to classify network traffic as **normal or malicious**. The goal is to demonstrate how ML can be applied to cybersecurity problems using structured network data.
 
-This project is **research- and scholarship-oriented**, combining:
+This project combines:
 - Cybersecurity fundamentals
 - Machine learning on tabular data
 - PyTorch-based model development
@@ -12,7 +12,7 @@ This project is **research- and scholarship-oriented**, combining:
 ---
 
 ## Problem Statement
-Traditional rule-based intrusion detection systems struggle to detect **new or evolving attacks**. This project applies supervised machine learning to identify malicious traffic patterns based on statistical network features.
+Traditional rule-based intrusion detection systems struggle to detect **new or evolving attacks**. This project applies **supervised machine learning** to identify malicious traffic patterns based on statistical network features.
 
 **Task Type:** Binary Classification  
 **Classes:** Normal Traffic (0), Attack Traffic (1)
@@ -182,7 +182,7 @@ plt.show()
 ## Results
 - Achieved strong classification accuracy on test data
 - Model effectively learns attack vs normal traffic patterns
-- Demonstrates feasibility of ML-based intrusion detection
+- Demonstrates the feasibility of ML-based intrusion detection
 
 ---
 
