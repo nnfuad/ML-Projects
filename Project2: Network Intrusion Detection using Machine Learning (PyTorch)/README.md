@@ -186,13 +186,6 @@ plt.show()
 
 ---
 
-## Why This Project is CV / Scholarship Worthy
-- Aligns **Machine Learning + Cybersecurity**
-- Uses a **standard research dataset** (NSL-KDD)
-- Demonstrates full ML pipeline
-- Easy to extend into research or thesis work
-
----
 
 ## Future Improvements
 - Multi-class attack classification
