@@ -1,9 +1,14 @@
+from pathlib import Path
 import numpy as np
 import pandas as pd
-from pathlib import Path
+
+# ------------------------------------------------------------------
+# Resolve project root safely
+# ------------------------------------------------------------------
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = PROJECT_ROOT / "data/raw/system_performance.csv"
 
 np.random.seed(42)
-
 N = 1000
 
 input_size = np.random.uniform(100, 10000, N)
@@ -27,8 +32,7 @@ df = pd.DataFrame({
     "execution_time": execution_time
 })
 
-output_path = Path("../data/raw/system_performance.csv")
-output_path.parent.mkdir(parents=True, exist_ok=True)
+DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+df.to_csv(DATA_PATH, index=False)
 
-df.to_csv(output_path, index=False)
-print(f"Dataset saved to {output_path}")
+print(f"Dataset saved to {DATA_PATH.resolve()}")
