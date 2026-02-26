@@ -30,7 +30,8 @@ This repository contains various machine learning projects ranging from beginner
 |---------|-------------|--------------|--------|
 |[Diabetes Detection](https://github.com/nnfuad/ML-Projects/tree/main/Project1%3A%20Diabetes%20Detection)|A model that predicts if a patient has diabetes or not.|FNN|Complete|
 |[Network Intrusion Detection](https://github.com/nnfuad/ML-Projects/tree/b5c0f8a643ed2638bf13c68fd0f96161943867b3/Project2%3A%20Network%20Intrusion%20Detection%20using%20Machine%20Learning%20(PyTorch))|A model that detects malicious traffic in networks.|FNN/MLP|Complete|
-|[Spam Email Detection](https://github.com/nnfuad/ML-Projects/tree/974c03c5f5bc92ce404d9ef3887dee1d1e681c9b/Project3%3A%20Spam%20Email%20Detection)|A model that classifies body texts of an email as spam or ham(legit).|NLP (TF-IDF + Naive Bayes)|Complete|
+|[Spam Email Detection](https://github.com/nnfuad/ML-Projects/tree/974c03c5f5bc92ce404d9ef3887dee1d1e681c9b/Project3%3A%20Spam%20Email%20Detection)|A model that classifies body texts of an email as spam or ham (legitimate).|NLP (TF-IDF + Naive Bayes)|Complete|
+|[Titanic Survival Prediction](https://github.com/nnfuad/ML-Projects/tree/ad4ccf0407a59456922162233b523bce5d2f5595/Project5%3A%20Titanic%20Survival%20Prediction)|End-to-end binary classification pipeline predicting passenger survival using structured demographic features, with disciplined preprocessing, evaluation, and reproducibility.|Logistic Regression, scikit-learn|Complete|
 
 ### 📈 Regression & Performance Modeling Projects
 | Project | Description | Technologies | Status |
